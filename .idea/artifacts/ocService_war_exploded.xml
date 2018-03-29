@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ocService:war exploded">
+    <output-path>$PROJECT_DIR$/ocService/target/ocService</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ocService" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ocService/target/ocService/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ocService/web/Web" />
+    </root>
+  </artifact>
+</component>
